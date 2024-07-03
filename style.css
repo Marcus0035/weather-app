@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --backgroung-grey: #212121;
+    --background-light: #44E6BA;
+    --background-dark: #414468;
+    --white-input: #EBFDFB;
+    --white-text: #F7FDFD;
+    
+    --font-main: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+p, img {
+    margin: 5%;
+    font-family: var(--font-main);
+    font-size: 1rem;
+}
+
+.city {
+    margin-top: 0%;
+    font-size: 3rem;
+}
+
+main, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+
+html {
+    background: #28756c;
+ }
+
+.weather-app {
+    background-image: linear-gradient(to bottom right, var(--background-light), var(--background-dark));
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    min-width: 300px;
+    min-height: 500px;
+    color: var(--white-text);
+    padding: 7%;
+    border: var(--backgroung-grey) solid 3px;
+}
+
+#search button img{
+    width: 1rem; height: 1rem;
+}
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+}
+
+#search-input {
+    background: var(--white-input);
+    width: 80%;
+    border: none;
+    border-radius: 40px;
+    padding-left: 15px;
+    margin-right: .25em;
+}
+
+#search button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: var(--white-input);
+}
+
+#search button:hover,
+#search button:active,
+#search input:hover, 
+#search input:active {
+    background-color: var(--white-text);
+}
+
+#main-img {
+    margin-top: 20%;
+}
+
+
+#bottom-panel {
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
